@@ -1,0 +1,1059 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"test",
+				"Test"
+			],
+			[
+				"hamb",
+				"hamburgerBtn"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"news",
+				"news_article"
+			],
+			[
+				"opc",
+				"opacity"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"state",
+				"state\tReact: @state."
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"kusa-",
+				"kusa-purple"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"flex",
+				"flex-box-cross"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"is",
+				"is-active"
+			],
+			[
+				"text",
+				"text-align-last"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"just",
+				"justify-content"
+			],
+			[
+				"jusi",
+				"justify-content"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"kusa-index-content",
+				"kusa-index-content-body"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"dream",
+				"dream_slug"
+			],
+			[
+				"abu",
+				"about-us-card"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sign",
+				"signOutUser"
+			],
+			[
+				"a",
+				"authenticated"
+			],
+			[
+				"S",
+				"SIGN_OUT_USER"
+			],
+			[
+				"SIG",
+				"SIGN_OUT_USER"
+			],
+			[
+				"auth",
+				"authError"
+			],
+			[
+				"o",
+				"onFailure"
+			],
+			[
+				"on",
+				"onSuccess"
+			],
+			[
+				"Goo",
+				"GoogleLogin"
+			],
+			[
+				"onE",
+				"onFailure"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"con",
+				"configureStore"
+			],
+			[
+				"web",
+				"webpack"
+			],
+			[
+				"webpac",
+				"webpack-dev-server"
+			],
+			[
+				"new",
+				"newWidth"
+			],
+			[
+				"all",
+				"allVideos"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"favo",
+				"favorite-gifs"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"user",
+				"userRef"
+			],
+			[
+				"render",
+				"renderFavoriteHeart"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"au",
+				"authError"
+			],
+			[
+				"SIGN",
+				"SIGN_IN_USER"
+			],
+			[
+				"fire",
+				"firebase"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"atu",
+				"authenticated"
+			],
+			[
+				"aut",
+				"authenticated"
+			],
+			[
+				"SI",
+				"SIGN_IN_USER"
+			],
+			[
+				"Si",
+				"SIGN_OUT_USER"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"passwordC",
+				"passwordConfirmation"
+			],
+			[
+				"hand",
+				"handleForSubmit"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"gif",
+				"gifModalActions"
+			],
+			[
+				"gis",
+				"gisListActions"
+			],
+			[
+				"modal",
+				"modalIsOpen"
+			],
+			[
+				"Cl",
+				"CLOSE_MODAL"
+			],
+			[
+				"trans",
+				"translateX()"
+			],
+			[
+				"Gif",
+				"GifModal"
+			],
+			[
+				"g",
+				"gifs"
+			],
+			[
+				"p",
+				"propTypes"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"Comment",
+				"CommentActions"
+			],
+			[
+				"React",
+				"ReactMixin"
+			],
+			[
+				"f",
+				"fdn\tReact: React.findDOMNode(...)"
+			],
+			[
+				"r",
+				"refs\tReact: this.refs."
+			],
+			[
+				"list",
+				"Listening"
+			],
+			[
+				"Peop",
+				"PeopleActions"
+			],
+			[
+				"Peo",
+				"PeopleTitle"
+			],
+			[
+				"filter",
+				"filterList"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"Pro",
+				"ProductRow"
+			],
+			[
+				"Product",
+				"ProductCategoryRow"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 959,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 1220,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/test.js",
+			"settings":
+			{
+				"buffer_size": 52,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/index.js",
+			"settings":
+			{
+				"buffer_size": 46,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 162.0,
+		"last_filter": "boxy",
+		"selected_items":
+		[
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"Boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package:",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Satisfy",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"paco",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 374.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"glue clear ",
+			"glue clear",
+			"glue",
+			"glue path",
+			"clear",
+			"glue",
+			"glue path",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/front-team/Documents/DAM/Improof",
+		"/home/front-team/Documents/DAM/Improof/www",
+		"/home/front-team/Documents/DAM/Improof/www/img",
+		"/home/front-team/Documents/DAM/Improof/www/js"
+	],
+	"file_history":
+	[
+		"/home/front-team/Documents/DAM/Improof/www/index.html",
+		"/home/front-team/Documents/DAM/Improof/webpack.config.js",
+		"/home/front-team/Documents/DAM/Improof/package.json",
+		"/home/front-team/Projects/React_final_CF/cfg/dev.js",
+		"/home/front-team/Projects/React_final_CF/cfg/defaults.js",
+		"/home/front-team/Projects/React_final_CF/webpack.config.js",
+		"/home/front-team/Projects/React_final_CF/.babelrc",
+		"/home/front-team/Projects/React_final_CF/server.js",
+		"/home/front-team/Projects/React_final_CF/cfg/base.js",
+		"/home/front-team/Projects/React_final_CF/package.json",
+		"/home/front-team/Documents/DAM/Improof/package.json.2903961227",
+		"/home/front-team/Desktop/EjemploHilos/C#/Temporizador.cs",
+		"/home/front-team/Desktop/EjemploHilos/C#/HiloSimple.cs",
+		"/home/front-team/Projects/dreamstore/Dockerfile",
+		"/home/front-team/Projects/dreamstore/Gemfile",
+		"/home/front-team/Projects/dreamstore/docker-compose.yml",
+		"/home/front-team/Projects/dreamstore/app/views/layouts/front.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/layouts/devise.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/layouts/admin.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/home_news.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/dreamstore.scss",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/layouts/_main_header.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/visitors.coffee",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front.js",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/news_articles.coffee.erb",
+		"/home/front-team/Projects/dreamstore/app/views/layouts/_front_navigation.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/visitors_about_us.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/kindness-usa-2027/our_team.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/home_subscription.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/admin/user.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/admin/signatories.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/contract.coffee.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/visitors_legal_information.scss",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_our_team.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dashboards/_user_contract_detail.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dashboards/_user_contracts.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dashboards/show.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_kindness_index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/_home_subscription.html.erb",
+		"/home/front-team/Documents/DAM/TestApp/www/js/app.js",
+		"/home/front-team/Documents/DAM/TestApp/www/js/EmployeeListView.js",
+		"/home/front-team/Documents/DAM/TestApp/www/index.html",
+		"/home/front-team/Documents/DAM/TestApp/www/js/EmployeeView.js",
+		"/home/front-team/Documents/DAM/CordovaTestSpa/js/HomeView.js",
+		"/home/front-team/Documents/DAM/CordovaTestSpa/js/EmployeeView.js",
+		"/home/front-team/Documents/DAM/CordovaTestSpa/js/EmployeeListView.js",
+		"/home/front-team/Documents/DAM/CordovaTestSpa/index.html",
+		"/home/front-team/Documents/DAM/CordovaTestSpa/js/app.js",
+		"/home/front-team/Documents/DAM/CordovaTestSpa/js/employeeListView.js",
+		"/home/front-team/Projects/dreamstore/app/views/front/contracts/processing/common/_check_to_sign.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/visitors.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/contracts.scss",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/is_your_dream_in_here.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/contracts/processing/_contract_step_starting.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/show.html.erb",
+		"/home/front-team/Projects/dreamstore/config/database.yml",
+		"/home/front-team/Projects/dreamstore/app/controllers/registrations_controller.rb",
+		"/home/front-team/Projects/dreamstore/app/views/devise/registrations/edit.html.erb",
+		"/home/front-team/Projects/dreamstore/app/controllers/sessions_controller.rb",
+		"/home/front-team/Projects/dreamstore/app/helpers/application_helper.rb",
+		"/home/front-team/Projects/dreamstore/app/controllers/front/news_articles_controller.rb",
+		"/home/front-team/Projects/dreamstore/app/views/front/news_articles/_modal_email_confirmation.html.erb",
+		"/home/front-team/Projects/dreamstore/app/decorators/news_article_decorator.rb",
+		"/home/front-team/Projects/dreamstore/app/controllers/front/dreams_controller.rb",
+		"/home/front-team/Projects/dreamstore/app/views/front/news_articles/show.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/front-navigation.scss",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/about_us.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/terms_and_conditions.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/privacy_policy.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/visitors_privacy_policy.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/_variables.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/visitors.coffee.erb",
+		"/home/front-team/Projects/dreamstore/app/controllers/front/ideators_controller.rb",
+		"/home/front-team/Projects/dreamstore/app/views/front/news_articles/_modal_email_share.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/news_article.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/dreams.scss",
+		"/home/front-team/Projects/dreamstore/app/models/news_article.rb",
+		"/home/front-team/Projects/dreamstore/app/models/news_article_image.rb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/sign_in_sign_up_form.scss",
+		"/home/front-team/Projects/dreamstore/app/views/devise/passwords/edit.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/framework_and_overrides.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/kindness-usa-2027/kindness-index.scss",
+		"/home/front-team/Projects/dreamstore/app/mailers/sengrid_mailer.rb",
+		"/home/front-team/Projects/dreamstore/app/views/front/visitors/_home_cards.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/devise/mailer/reset_password_instructions.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/devise/passwords/after_forgot_password_email.js.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/contracts/processing/_contract_step_preview_sign.html.erb",
+		"/home/front-team/Projects/dreamstore/config/locales/devise.en.yml",
+		"/home/front-team/Projects/dreamstore/config/locales/en.yml",
+		"/home/front-team/Projects/dreamstore/app/decorators/dream_decorator.rb",
+		"/home/front-team/Projects/dreamstore/app/controllers/front/visitors_controller.rb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/home_testimonies.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/kindness-usa-2027/faqs.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/dream.coffee",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/kusa/kindness_index.coffee.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/kusa/faqs.coffee.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_faqs.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_main.html.erb",
+		"/home/front-team/Projects/dreamstore/config/routes.rb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/_modal_email_share.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/kindness-usa-2027/kindness-usa-2027-faqs.scss",
+		"/home/front-team/Projects/dreamstore/public/404.html",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/admin/quiz_questions.scss",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_kindness_usa_2027_faqs.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_kindness_usa_2027_index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/masonry-docs.min.js",
+		"/home/front-team/Projects/dreamstore/app/views/front/faqs/index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/faqs/show.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/_mixins.scss",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front.scss",
+		"/home/front-team/Desktop/old_dream_show.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/kindness_usa_2027_index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/_kindness-usa-2027-faqs.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness_usa_2027_index.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-index.html",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-faqs.html",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-faqs.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-index.html.erb",
+		"/home/front-team/Projects/terminal.glue",
+		"/home/front-team/Projects/dreamstore/app/views/front/dreams/show_faqs.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/dreams_faq.scss",
+		"/home/front-team/Projects/dreamstore/app/views/layouts/_front_breadcrumb.html.erb",
+		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/_flex_box_mixins.scss",
+		"/home/front-team/Documents/LP@/Juego-Lp2/src/compileFiles",
+		"/home/front-team/Documents/LP@/Juego-Lp2/src/compileFiles.batch"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			"/home/front-team/Projects/dreamstore/app",
+			"/home/front-team/Projects/dreamstore",
+			"/home/front-team/Projects/dreamstore/app/",
+			"/home/front-team/Projects/dreamstore/app/assets/stylesheets",
+			"/home/front-team/Projects/dreamstore/app/assets",
+			"/home/front-team/Projects/dreamstore/app/",
+			"/home/front-team/Projects/dreamstore/app/assets/",
+			"/home/front-team/Projects/dreamstore/app/assets/stylesheets",
+			"/home/front-team/Projects/dreamstore/app",
+			"/home/front-team/Projects/dreamstore",
+			"/home/front-team/Projects/React_101/src",
+			"/home/front-team/Projects/Carrier/src",
+			"/home/front-team/Projects/React_101/src",
+			"/home/front-team/Projects/React_101",
+			"/home/front-team/Projects/Reflux_CF",
+			"/home/front-team/Projects/Reflux_CF/cfg",
+			"/home/front-team/Projects/Reflux_CF"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"9000",
+			"ThreadStart",
+			"home-news-containerw",
+			"home-news-container",
+			"hidden",
+			".footer-element",
+			"window",
+			"Window",
+			"window",
+			"Window",
+			"window",
+			"$content",
+			"$trigger",
+			"mobileMenu",
+			"main-header-hamburger-button",
+			"margin-bottom",
+			"63",
+			".about-us-img",
+			"footer-dreamstore-logo-wrapper",
+			"footer-social-container",
+			".kusa-our-team-know-more-holding-company-wrapper",
+			">>>>>",
+			".content",
+			"content",
+			"wraper",
+			"#test-list",
+			".content",
+			".footer-tk-logo",
+			"footer-element",
+			"footer-text",
+			"footer-element",
+			"div",
+			"footer-text",
+			"footer-logo",
+			"footer-bold",
+			"footer-text",
+			"text ",
+			"footer-text",
+			".text",
+			"text",
+			".footer",
+			"footer",
+			".home-news-container",
+			".home-social-subscriptions",
+			".home-news-social",
+			".footer-display",
+			"footer-border",
+			"social-icon-footer",
+			"footer-text",
+			"social-link-footer",
+			"footer-display",
+			"footer-text",
+			"footer-logo",
+			".footer-border",
+			".home-social-wrapper",
+			"inner_step",
+			"inner_step_1",
+			"footer-reference",
+			"footer-bottom",
+			"footer-btn",
+			"footer-row-content",
+			"footer-top",
+			"footer-reference",
+			"footer-bottom",
+			"footer-btn",
+			"footer-row-content",
+			"footer-top",
+			"footer-row",
+			"no-footer",
+			"footer-padding-content",
+			"col-md-4",
+			"text",
+			"col-md-4",
+			".footer",
+			"footer",
+			".legal-information-body-wrapper",
+			".content",
+			".about-us-body",
+			"footer-padding-content",
+			".content",
+			"footer-tk-logo",
+			"Meet Kindness USA DreamCo & Life Vest Inside",
+			"kusa-our-team-holding-company-team-description-member-incharge-title",
+			"kusa-index-card-document-description-link",
+			"US$",
+			"my-accnt-user-contracts",
+			".my-accnt-user-contracts",
+			"https://vimeo.com/user37800736",
+			"home-social-description",
+			"vimeo",
+			"processDebugResources",
+			"StatusBar",
+			".big-wraper",
+			".dream-list-container",
+			"dr-value",
+			"underline-input",
+			"dr-value",
+			"label-item dr-value",
+			".label-item.dr-value",
+			"mobile-style",
+			"form-flex mobile-style",
+			"for-dream-in-here",
+			"form-flex",
+			"for-dream-in-here",
+			"form-flex ",
+			"form-flex",
+			"%>\n",
+			"form-flex",
+			"form-flex ",
+			"dream-list-container",
+			"dream-list-container\"",
+			"dream-list-container",
+			"Game on",
+			"Game on! YOU are now part of the Action!",
+			"secure_params",
+			"current_or_guest_user",
+			"us_states",
+			"options_for_select",
+			"contract",
+			"sign-in-sign-up-form-value",
+			"share_dream",
+			"\n              You share the message succesfully!\n            ",
+			"share_home",
+			"Your email has been sent succesfully",
+			"place_date",
+			"pa-body",
+			"modal-backdrop",
+			".modal-backdrop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/js/test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"devise.html",
+				"app/views/layouts/devise.html.erb"
+			],
+			[
+				"dreamstore.scs",
+				"app/assets/stylesheets/common/dreamstore.scss"
+			],
+			[
+				"news_articledeco",
+				"app/decorators/news_article_decorator.rb"
+			],
+			[
+				"visitors/index",
+				"app/views/front/visitors/index.html.erb"
+			],
+			[
+				"visitors.scs",
+				"app/assets/stylesheets/front/visitors.scss"
+			],
+			[
+				"modal_email_share",
+				"app/views/front/news_articles/_modal_email_share.html.erb"
+			],
+			[
+				"dreamdeco",
+				"app/decorators/dream_decorator.rb"
+			],
+			[
+				"dashboard/show",
+				"app/views/front/dashboards/show.html.erb"
+			],
+			[
+				"visitor_cro",
+				"app/controllers/front/visitors_controller.rb"
+			],
+			[
+				"home_testimonies",
+				"app/assets/stylesheets/common/home_testimonies.scss"
+			],
+			[
+				"flexbox.cs",
+				"Projects/dreamstore/app/assets/stylesheets/common/_flex_box_mixins.scss"
+			],
+			[
+				"about",
+				"Projects/dreamstore/app/views/front/visitors/about_us.html.erb"
+			],
+			[
+				"about_",
+				"Projects/dreamstore/app/views/front/visitors/about_us.html.erb"
+			],
+			[
+				"contract_chan",
+				"Projects/dreamstore/app/models/contract_contact_channel.rb"
+			],
+			[
+				"model/news",
+				"Projects/dreamstore/app/models/news_article.rb"
+			],
+			[
+				"visitors/inde",
+				"Projects/dreamstore/app/views/front/visitors/index.html.erb"
+			],
+			[
+				"actions/index",
+				"Projects/Carrier/src/actions/index.js"
+			],
+			[
+				"index.",
+				"Projects/DevTest/index.html"
+			],
+			[
+				"commentbo",
+				"Projects/React_final_CF/src/components/CommentBox.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
