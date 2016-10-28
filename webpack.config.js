@@ -13,7 +13,7 @@ module.exports = {
   entry: [
     'webpack-dev-server/client?http://0.0.0.0:4000',
     'webpack/hot/only-dev-server',
-    PATHS.src
+    './index.js'
   ],
   output: {
     path: PATHS.build,
@@ -34,17 +34,13 @@ module.exports = {
       },
       {
         test: /\.css|.scss$/,
-        loader: 'style-loader!css-loader!sass-loader?outputStyle=expanded'
+        loader: 'style!css!sass?outputStyle=expanded'
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         loader: 'babel',
         exclude: PATHS.node_modules
       },
-      {
-        test: /\.html$/,
-        loader: "html"
-      }
     ]
   },
   devServer: {
