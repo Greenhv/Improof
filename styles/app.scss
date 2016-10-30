@@ -29,17 +29,17 @@
 
 // Buttons Styles
 
-.dark-button {
+.dark-btn {
   background: #CC1D1D;
   color: #EEEEEE;
 }
 
-.light-button {
+.light-btn {
   background: #EEEEEE;
   color: #222222;
 }
 
-.log-in-btn {
+.auth-options-wrapper {
   margin-top: 59px;
 }
 
@@ -47,6 +47,34 @@
   margin-top: 17px;
 }
 
-.large-button {
-  width: 216px
+.large-btn {
+  width: 216px;
+  padding: 5px 0;
+}
+
+.short-btn {
+  width: 100px;
+  padding: 4px 0;
+}
+
+// Form Styles
+.sign-up-form,
+.login-form {
+  min-width: 233px;
+  padding-top: 29px;  
+}
+
+.input-full-width {
+  width: 100%;
+  font-size: 14px;
+}
+
+.flex-btns-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.auth-input {
+  margin-top: 25px;
 }

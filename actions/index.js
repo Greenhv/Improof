@@ -11,7 +11,8 @@ export const signInUser = function signInUser(navigator) {
   }
 };
 
-export const signUpUser = function signUpUser() {
+export const signUpUser = function signUpUser(navigator) {
+  navigator.pushPage({component: MainPage});
   return {
     type: AUTH_USER,
   }
