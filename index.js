@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import ons from 'onsenui'
 
 import { Provider } from 'react-redux';
-import Home from './www/containers/Home.jsx';
+import Home from './components/Home.jsx';
 
-import configureStrore from './www/store/configStore.js';
+import configureStrore from './store/configStore.js';
 
 const store =  configureStrore();
 

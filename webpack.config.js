@@ -1,9 +1,8 @@
-var path = require('path');
 var webpack = require('webpack');
+var path = require('path');
 
 const PATHS  = {
-  build: path.join(__dirname, 'www/build'),
-  src: path.join(__dirname, 'www'),
+  build: path.join(__dirname, 'www'),
   node_modules: path.join(__dirname, 'node_modules'),
 }
 
@@ -37,7 +36,7 @@ module.exports = {
         loader: 'style!css!sass?outputStyle=expanded'
       },
       {
-        test: /\.(js|jsx)$/,
+        test: /\.js$|\.jsx$/,
         loader: 'babel',
         exclude: PATHS.node_modules
       },
@@ -62,3 +61,4 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ]
 };
+

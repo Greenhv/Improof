@@ -1,0 +1,52 @@
+.center-content {
+  text-align: center;
+}
+
+.full-size-helper {
+  height: 100%;
+}
+
+.flex-wrapper {
+  display: flex;
+  
+  &.is-column-wrapper {
+    flex-direction: column;
+  }
+}
+
+.flex-absolute-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-horizontally-center {
+  justify-content: center;
+}
+
+.flex-vertically-center {
+  align-items: center;
+}
+
+// Buttons Styles
+
+.dark-button {
+  background: #CC1D1D;
+  color: #EEEEEE;
+}
+
+.light-button {
+  background: #EEEEEE;
+  color: #222222;
+}
+
+.log-in-btn {
+  margin-top: 59px;
+}
+
+.sign-up-btn {
+  margin-top: 17px;
+}
+
+.large-button {
+  width: 216px
+}
