@@ -8,7 +8,7 @@ import {
 const NavApp = ({title, navigator, backButton}) => (
   <Toolbar>
     <div className='left'>
-      {backButton ? <BackButton onClick={() => navigator.popPage()}>Back</BackButton> : null}
+      {backButton ? <BackButton onClick={() => navigator.popPage()} /> : null}
     </div>
     <div className='center'>{title}</div>
   </Toolbar>

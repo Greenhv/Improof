@@ -7,6 +7,8 @@ import AuthOptions from './AuthOptions.jsx';
 import 'onsenui/css/onsenui.css';
 import 'onsenui/css/onsen-css-components.css';
 import 'onsenui/js/onsenui.js';
+import '../styles/fonts/font-ayuthaya/ayuthaya.scss';
+import '../styles/fonts/font-metropolische/metropolische.scss';
 import '../styles/app.scss';
 
 const renderPage = (route, navigator) => (

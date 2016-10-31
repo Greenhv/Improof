@@ -2,6 +2,18 @@ import React from 'react';
 import { Input, Button } from 'react-onsenui';
 
 export default class LoginForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      email: '',
+      password: '',
+    };
+  }
+
+  handleInputOnChange(type,e) {
+    this.setState({[type]: e.target.value});
+  }
+
   render() {
     const { 
       onSignIn,
@@ -11,7 +23,7 @@ export default class LoginForm extends React.Component {
 
     const submitForm = () => {
       let loginForm = document.getElementsByClassName('login-form')[0];
-      onSignIn(navigator);
+      onSignIn(navigator,this.state);
     }
 
     const goBackHandler = () => {
@@ -21,10 +33,20 @@ export default class LoginForm extends React.Component {
     return(
       <form className="login-form">
         <div>
-          <Input className="input-full-width auth-input" placeholder="Email" type="text" />
+          <Input 
+           className="input-full-width auth-input" 
+           placeholder="Email" 
+           type="text" 
+           onChange={(e) => this.handleInputOnChange('email',e)}
+          />
         </div>
         <div>
-          <Input className="input-full-width auth-input" placeholder="Password" type="password" />
+          <Input 
+           className="input-full-width auth-input" 
+           placeholder="Password" 
+           type="password" 
+           onChange={(e) => this.handleInputOnChange('password',e)}
+          />
         </div>
         <div className="flex-btns-wrapper">
           <Button className="light-btn short-btn" onClick={goBackHandler}>Cancel</Button>

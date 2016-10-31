@@ -78,3 +78,176 @@
 .auth-input {
   margin-top: 25px;
 }
+
+// Main Page Style
+/* User Information Styles */
+
+.user-info {
+  padding: 10px 16px 29px 19px;
+  background: #EEEEEE;
+}
+
+// User Info Header
+
+.user-info-header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  font-family: 'Ayuthaya';
+  font-size: 16px;
+}
+
+.user-preferences {
+  color: #4A4A4A;
+  font-size: 30px;
+}
+
+// User Information Body
+
+.user-info-body {
+  justify-content: space-between;
+  font-size: 8px;
+  padding-top: 14px;
+}
+
+.user-life-bar-wrapper,
+.user-xp-bar-wrapper {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.user-life-progress,
+.user-xp-progress {
+  align-items: center;
+}
+
+.user-life-icon {
+  font-size: 13px;
+  color: #D0021B;
+}
+
+.user-xp-bar-icon {
+  font-size: 13px;
+  color: #4A90E2;
+}
+
+.user-life-bar {
+  .progress-bar {
+    height: 14px;
+    background: #D4D4D4;
+    .progress-bar__primary {
+      background: #D0021B;
+    }
+  }
+}
+
+.user-xp-bar {
+  .progress-bar {
+    height: 14px;
+    background: #D4D4D4;
+    .progress-bar__primary {
+      background: #4A90E2;
+    }
+  } 
+}
+
+.progress-bar-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-avatar {
+  width: 84px;
+  height: 84px;
+  margin-right: 16px;
+}
+
+.user-progress-information {
+  width: 100%;
+}
+
+// User Data - Lvl and Current Gold
+
+.user-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 10px;
+}
+.user-data-lvl {
+  font-size: 14px;
+}
+
+.user-data-coins {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.user-data-coin {
+  font-size: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.user-data-coin-img {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+/* User Information Styles End */
+
+/* User Actions Styles */
+
+.user-actions {
+  padding: 10px;
+  font-size: 14px;
+  font-family: 'Metropolische';
+}
+
+.user-one-column-action {
+  background: #D8D8D8;
+  display: flex;
+  align-items: center;
+  padding: 21px 0 19px 23px;
+}
+
+.user-two-columns-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 9px;
+}
+
+.user-two-column-action {
+  background: #D8D8D8;
+  display: flex;
+  align-items: center;
+  padding: 18px 0 18px 13px;
+  font-size: 14px;
+  width: 45%;
+  margin-top: 6px;
+}
+
+.user-work-img {
+  padding-right: 24px;
+}
+
+.user-projects-img,
+.user-habits-img,
+.user-todos-img,
+.user-goals-img,
+.user-info-img,
+.user-stats-img {
+  padding-right: 7px
+}
+
+.user-work-name {
+  font-size: 58px;
+}
+
+/* User Actions Styles End */
