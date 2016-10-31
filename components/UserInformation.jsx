@@ -17,9 +17,7 @@ export default class UserInformation extends React.Component {
           <div className="user-avatar-wrapper">
             <img className="user-avatar" src="https://dummyimage.com/84x84/000000/fff" alt="User Avatar"/>
           </div>
-
           <div className="user-progress-information">
-
             <div className="user-life">
               <div className="flex-wrapper user-life-progress">
                 <div className="user-life-icon">
@@ -30,11 +28,10 @@ export default class UserInformation extends React.Component {
                 </div>
               </div>
               <div className="progress-bar-text">
-                <div className="progress-bar-text-percentage">39/100</div>
+                <div className="progress-bar-text-percentage">20/100</div>
                 <div className="progress-bar-text-name">Health</div>
               </div>
             </div>
-            
             <div className="user-xp">
               <div className="flex-wrapper user-xp-progress">
                 <div className="user-xp-bar-icon">
@@ -45,11 +42,10 @@ export default class UserInformation extends React.Component {
                 </div>
               </div>
               <div className="progress-bar-text">
-                <div className="progress-bar-text-percentage">79/100</div>
+                <div className="progress-bar-text-percentage">40/100</div>
                 <div className="progress-bar-text-name">Experience</div>
               </div>
             </div>
-
             <div className="user-data">
               <div className="user-data-lvl">
                 LVL 1
@@ -77,7 +73,6 @@ export default class UserInformation extends React.Component {
             </div>
           </div>
         </div>
-
       </section>
     );
   }

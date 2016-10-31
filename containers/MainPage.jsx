@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import { Page } from 'react-onsenui';
+import Pomodoro from '../containers/Pomodoro.jsx';
 
 import UserInformation from '../components/UserInformation.jsx';
 import UserActionsGrid from '../components/UserActionsGrid.jsx';
@@ -14,12 +15,28 @@ class MainPage extends React.Component {
     const {
       navigator,
       user,
+      pomodoro,
     } = this.props;
+
+    const {
+      startWork,
+      startRest,
+      timerStopped,
+    } = this.props.actions;
+
+    const openWorkAction = () => {
+      navigator.pushPage({component: Pomodoro, key: 'POMODORO_PAGE'});
+    }
 
     return(
       <Page>
         <UserInformation currentUser={user} />
-        <UserActionsGrid />
+        <UserActionsGrid 
+         startWork={startWork}
+         startRest={startRest}
+         pomodoro={pomodoro}
+         openWorkAction={openWorkAction}
+        />
       </Page>
     )
   }
@@ -28,6 +45,7 @@ class MainPage extends React.Component {
 function mapStateToProps (state) {
   return {
     user: state.auth.user,
+    pomodoro: state.pomodoro,
   };
 }
 

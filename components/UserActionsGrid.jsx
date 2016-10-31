@@ -1,17 +1,47 @@
 import React from 'react';
 import { Ripple } from 'react-onsenui';
 
+
 export default class UserActionsGrid extends React.Component {
   render() {
+    const {
+      startWork,
+      startRest,
+      pomodoro,
+      openWorkAction,
+    } = this.props;
+    
+    const renderPomodoroState = () => {
+      if(pomodoro.working) {
+        return (
+          <div clasName="user-working">
+            WORKING
+          </div>
+        ); 
+      } else if (pomodoro.resting) {
+        return (
+          <div clasName="user-resting">
+            ON A BREAK
+          </div>
+        );
+      } else {
+        return (
+          <div className="user-not-working">
+            WORK
+          </div>
+        );
+      }
+    }
+
     return (
       <section className="user-actions">
         <div className="user-one-column-actions">
-          <div className="user-one-column-action user-work">
+          <div onClick={openWorkAction} className="user-one-column-action user-work">
             <div className="user-work-img-wrapper">
               <img className="user-work-img" src="https://dummyimage.com/90x90/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-work-name">
-              WORK
+              {renderPomodoroState()}
             </div>
           </div>
           <Ripple />

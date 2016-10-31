@@ -12,11 +12,11 @@ export default class AuthOptions extends React.Component {
     } = this.props;
 
     const openLogInForm = () => {
-      navigator.pushPage({component: LogIn});
+      navigator.pushPage({component: LogIn, key: "LOG_IN_PAGE"});
     };
 
     const openSignUpForm = () => {
-      navigator.pushPage({component:SignUp});
+      navigator.pushPage({component: SignUp, key: "SIGN_UP_PAGE"});
     };
     return(
       <Page className="center-content">
