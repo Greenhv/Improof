@@ -1,3 +1,5 @@
+/* Global Styles */
+
 .center-content {
   text-align: center;
 }
@@ -26,6 +28,37 @@
 .flex-vertically-center {
   align-items: center;
 }
+
+.global-navbar {
+  background: #EEEEEE;
+  font-family: 'Ayuthaya';
+}
+
+.default-font-color {
+  color: #222222;
+}
+
+.navbar-tilte {
+  font-family: 'Ayuthaya';
+  font-size: 20px;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-icon {
+  font-size: 30px;
+  padding-right: 13px;
+
+  &:last-child {
+    padding-right: 7px;
+  }
+}
+
+/* Global styles End */
 
 // Buttons Styles
 
@@ -110,6 +143,10 @@
   justify-content: space-between;
   font-size: 8px;
   padding-top: 14px;
+}
+
+.user-xp {
+  padding-top: 6px;
 }
 
 .user-life-bar-wrapper,
@@ -255,3 +292,39 @@
   font-size: 30px;
 }
 /* User Actions Styles End */
+
+/* Pomodoro/Work Action Styles */
+
+.timer-wrapper {
+  padding-top: 30px;
+}
+
+.timer-time-left {
+  font-family: 'Ayuthaya';
+  font-size: 60px;
+  text-align: center;
+}
+
+.timer-elements {
+  text-align: center;
+}
+
+.timer-progress-bar {
+  width: 199px;
+  margin: 0 auto;
+  .progress-bar {
+    height: 14px;
+    background: #D4D4D4;
+
+    .progress-bar__primary {
+      background: #CC1D1D;
+    }
+  }
+}
+
+.pomodoro-button {
+  margin-top: 31px;
+  text-transform: initial;
+  width: 216px;
+  padding: 4px 0;
+}

@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/home/front-team/Projects/dreamstore"
 		}
 	]
 }

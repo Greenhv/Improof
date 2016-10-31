@@ -4,16 +4,36 @@
 		"selected_items":
 		[
 			[
+				"sta",
+				"startWork"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"A",
+				"Ayuthaya"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
 				"test",
 				"Test"
 			],
 			[
 				"hamb",
 				"hamburgerBtn"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"mar",
@@ -26,10 +46,6 @@
 			[
 				"opc",
 				"opacity"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"state",
@@ -46,10 +62,6 @@
 			[
 				"kusa-",
 				"kusa-purple"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"flex",
@@ -114,10 +126,6 @@
 			[
 				"padding",
 				"padding-bottom"
-			],
-			[
-				"paddin",
-				"padding-top"
 			],
 			[
 				"fnt",
@@ -348,38 +356,63 @@
 	"buffers":
 	[
 		{
-			"file": "package.json",
+			"file": "styles/app.scss",
 			"settings":
 			{
-				"buffer_size": 959,
+				"buffer_size": 4453,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webpack.config.js",
+			"file": "containers/Pomodoro.jsx",
 			"settings":
 			{
-				"buffer_size": 1220,
+				"buffer_size": 1754,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/js/test.js",
+			"file": "actions/index.js",
 			"settings":
 			{
-				"buffer_size": 52,
+				"buffer_size": 1616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/NavBar.jsx",
+			"settings":
+			{
+				"buffer_size": 874,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "www/js/index.js",
+			"file": "components/Timer.jsx",
 			"settings":
 			{
-				"buffer_size": 46,
+				"buffer_size": 436,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reducers/pomodoro.js",
+			"settings":
+			{
+				"buffer_size": 826,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/LoginForm.jsx",
+			"settings":
+			{
+				"buffer_size": 1422,
 				"line_ending": "Unix"
 			}
 		}
@@ -461,15 +494,52 @@
 	"expanded_folders":
 	[
 		"/home/front-team/Documents/DAM/Improof",
-		"/home/front-team/Documents/DAM/Improof/www",
-		"/home/front-team/Documents/DAM/Improof/www/img",
-		"/home/front-team/Documents/DAM/Improof/www/js"
+		"/home/front-team/Documents/DAM/Improof/actions",
+		"/home/front-team/Documents/DAM/Improof/components",
+		"/home/front-team/Documents/DAM/Improof/containers",
+		"/home/front-team/Documents/DAM/Improof/reducers",
+		"/home/front-team/Projects/dreamstore/app",
+		"/home/front-team/Projects/dreamstore/app/views",
+		"/home/front-team/Projects/dreamstore/app/views/congratulations_mailer",
+		"/home/front-team/Projects/dreamstore/app/views/devise_custom_mailer"
 	],
 	"file_history":
 	[
-		"/home/front-team/Documents/DAM/Improof/www/index.html",
-		"/home/front-team/Documents/DAM/Improof/webpack.config.js",
+		"/home/front-team/Documents/DAM/Improof/reducers/index.js",
 		"/home/front-team/Documents/DAM/Improof/package.json",
+		"/home/front-team/Documents/DAM/Improof/config.xml",
+		"/home/front-team/Documents/DAM/Improof/components/UserActionsGrid.jsx",
+		"/home/front-team/Projects/dreamstore/app/views/congratulations_mailer/congratulations.html.erb",
+		"/home/front-team/Projects/dreamstore/app/views/devise_custom_mailer/confirmation_instructions.html.erb",
+		"/home/front-team/Documents/DAM/Improof/www/build/index.html",
+		"/home/front-team/Documents/DAM/Improof/www/templates/pageTemplate.html",
+		"/home/front-team/Documents/DAM/Improof/www/index.js",
+		"/home/front-team/Documents/DAM/Improof/webpack.config.js",
+		"/home/front-team/Documents/DAM/react-onsenui-redux-weather/package.json",
+		"/home/front-team/Documents/DAM/react-onsenui-redux-weather/webpack.config.js",
+		"/home/front-team/Documents/DAM/Improof/www/styles/index.scss",
+		"/home/front-team/Documents/DAM/Improof/www/js/pageTemplate.js",
+		"/home/front-team/Documents/DAM/Improof/www/templates/material-nav-bar.html",
+		"/home/front-team/Documents/DAM/Improof/www/styles/material-navigation-bar.scss",
+		"/home/front-team/Documents/DAM/Improof/www/index.html",
+		"/home/front-team/Documents/DAM/Improof/www/js/test.js",
+		"/home/front-team/Documents/DAM/Improof/www/css/index.scss",
+		"/home/front-team/Documents/DAM/Improof/www/templates/redBox.html",
+		"/home/front-team/Projects/Carrier/src/containers/Home.jsx",
+		"/home/front-team/Projects/Carrier/src/containers/Login.jsx",
+		"/home/front-team/Projects/Carrier/src/components/GoogleButton.jsx",
+		"/home/front-team/Projects/Carrier/src/components/App.jsx",
+		"/home/front-team/Projects/Carrier/src/actions/index.js",
+		"/home/front-team/Projects/Carrier/build/index.html",
+		"/home/front-team/Projects/Carrier/src/index.js",
+		"/home/front-team/Projects/Carrier/src/store/configureStore.js",
+		"/home/front-team/Projects/Carrier/webpack.config.js",
+		"/home/front-team/Documents/DAM/Improof/www/build/bundle.js",
+		"/home/front-team/Documents/DAM/Improof/www/css/index.css",
+		"/home/front-team/Documents/DAM/Improof/.babelrc",
+		"/home/front-team/Projects/Carrier/package.json",
+		"/home/front-team/Projects/Carrier/.babelrc",
+		"/home/front-team/Documents/DAM/Improof/www/js/index.js",
 		"/home/front-team/Projects/React_final_CF/cfg/dev.js",
 		"/home/front-team/Projects/React_final_CF/cfg/defaults.js",
 		"/home/front-team/Projects/React_final_CF/webpack.config.js",
@@ -562,39 +632,7 @@
 		"/home/front-team/Projects/dreamstore/app/controllers/front/visitors_controller.rb",
 		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/home_testimonies.scss",
 		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/kindness-usa-2027/faqs.scss",
-		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/dream.coffee",
-		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/kusa/kindness_index.coffee.erb",
-		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/kusa/faqs.coffee.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_faqs.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_main.html.erb",
-		"/home/front-team/Projects/dreamstore/config/routes.rb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/_modal_email_share.html.erb",
-		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/kindness-usa-2027/kindness-usa-2027-faqs.scss",
-		"/home/front-team/Projects/dreamstore/public/404.html",
-		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/admin/quiz_questions.scss",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_kindness_usa_2027_faqs.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/_kindness_usa_2027_index.html.erb",
-		"/home/front-team/Projects/dreamstore/app/assets/javascripts/masonry-docs.min.js",
-		"/home/front-team/Projects/dreamstore/app/views/front/faqs/index.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/faqs/show.html.erb",
-		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/_mixins.scss",
-		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front.scss",
-		"/home/front-team/Desktop/old_dream_show.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/index.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness_usa_2027/kindness_usa_2027_index.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/_kindness-usa-2027-faqs.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness_usa_2027_index.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-index.html",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-faqs.html",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-faqs.html.erb",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/kindness-usa-2027/kindness-usa-2027-index.html.erb",
-		"/home/front-team/Projects/terminal.glue",
-		"/home/front-team/Projects/dreamstore/app/views/front/dreams/show_faqs.html.erb",
-		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/front/dreams_faq.scss",
-		"/home/front-team/Projects/dreamstore/app/views/layouts/_front_breadcrumb.html.erb",
-		"/home/front-team/Projects/dreamstore/app/assets/stylesheets/common/_flex_box_mixins.scss",
-		"/home/front-team/Documents/LP@/Juego-Lp2/src/compileFiles",
-		"/home/front-team/Documents/LP@/Juego-Lp2/src/compileFiles.batch"
+		"/home/front-team/Projects/dreamstore/app/assets/javascripts/front/dream.coffee"
 	],
 	"find":
 	{
@@ -629,6 +667,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"user-xp",
+			"500",
+			"100%",
+			"Welcome to",
+			"4000",
 			"9000",
 			"ThreadStart",
 			"home-news-containerw",
@@ -751,12 +794,7 @@
 			"sign-in-sign-up-form-value",
 			"share_dream",
 			"\n              You share the message succesfully!\n            ",
-			"share_home",
-			"Your email has been sent succesfully",
-			"place_date",
-			"pa-body",
-			"modal-backdrop",
-			".modal-backdrop"
+			"share_home"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -774,54 +812,114 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "package.json",
+					"file": "styles/app.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 959,
+						"buffer_size": 4453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								242,
-								242
+								4417,
+								4417
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4493.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "webpack.config.js",
+					"file": "containers/Pomodoro.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1220,
+						"buffer_size": 1754,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								240,
-								240
+								1057,
+								1057
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "actions/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1543,
+								1543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/NavBar.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
 							]
 						],
 						"settings":
@@ -838,20 +936,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "www/js/test.js",
+					"buffer": 4,
+					"file": "components/Timer.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 52,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								277,
+								277
 							]
 						],
 						"settings":
@@ -862,37 +960,67 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "www/js/index.js",
+					"buffer": 5,
+					"file": "reducers/pomodoro.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 46,
+						"buffer_size": 826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								46
+								478,
+								478
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "components/LoginForm.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1051,7 +1179,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 240.0,
+	"side_bar_width": 306.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

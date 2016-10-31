@@ -3,7 +3,7 @@ import { START_WORK, START_REST, STOP_POMODORO, TICK } from '../actions';
 const initialState = {
   working: false,
   resting: false,
-  timeLeft: 0,
+  timeLeft: 1500,
 }
 
 export default function pomodoro(state = initialState, action) {
@@ -13,14 +13,13 @@ export default function pomodoro(state = initialState, action) {
         ...state,
         working: true,
         resting: false,
-        timeLeft: 1500,
         offset: action.offset,
         interval: action.interval,
       };
     case STOP_POMODORO:
       return {
-        ...state,
-        time: 0,
+        ...initialState,
+        time: 1500,
       };
     case TICK:
       return {
