@@ -1,37 +1,58 @@
 import React from 'react';
 import { Ripple } from 'react-onsenui';
-
+import Timer from './Timer.jsx';
 
 export default class UserActionsGrid extends React.Component {
+  renderPomodoroState() {
+    const {
+      pomodoro,
+    } = this.props;
+
+    if(pomodoro.working) {
+      return (
+        <div className="user-working">
+          <div>WORKING</div>
+          <div><Timer pomodoro={pomodoro} inUserGrid={true} /></div>
+        </div>
+      ); 
+    } else if (pomodoro.to_rest || pomodoro.resting) {
+      return (
+        <div className="user-resting">
+          <div>ON A BREAK</div>
+          <div><Timer pomodoro={pomodoro} inUserGrid={true} /></div>
+        </div>
+      );
+    } else {
+      return (
+        <div className="user-not-working">
+          <div>WORK</div>
+        </div>
+      );
+    }
+  }
+
+  componentDidUpdate() {
+    const {
+      pomodoro,
+      timerStopped,
+      setRest,
+      setWork,
+    } = this.props;
+
+    if (pomodoro.timeLeft < 1000) {
+      timerStopped(pomodoro.interval);
+      (pomodoro.working ? setRest() : setWork());
+    }
+  }
+
   render() {
     const {
       startWork,
       startRest,
       pomodoro,
       openWorkAction,
+      openMyProjectsAction,
     } = this.props;
-    
-    const renderPomodoroState = () => {
-      if(pomodoro.working) {
-        return (
-          <div clasName="user-working">
-            WORKING
-          </div>
-        ); 
-      } else if (pomodoro.resting) {
-        return (
-          <div clasName="user-resting">
-            ON A BREAK
-          </div>
-        );
-      } else {
-        return (
-          <div className="user-not-working">
-            WORK
-          </div>
-        );
-      }
-    }
 
     return (
       <section className="user-actions">
@@ -41,18 +62,18 @@ export default class UserActionsGrid extends React.Component {
               <img className="user-work-img" src="https://dummyimage.com/90x90/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-work-name">
-              {renderPomodoroState()}
+              {this.renderPomodoroState()}
             </div>
           </div>
           <Ripple />
         </div>
         <div className="user-two-columns-actions">
-          <div className="user-two-column-action user-projects">
+          <div onClick={openMyProjectsAction} className="user-two-column-action user-projects">
             <div className="user-projects-img-wrapper">
               <img className="user-projects-img" src="https://dummyimage.com/47x65/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-projects-name">
-              MANAGE MY PROJECTS
+              MANAGE MY <br/>PROJECTS
             </div>
             <Ripple />
           </div>
@@ -61,7 +82,7 @@ export default class UserActionsGrid extends React.Component {
               <img className="user-habits-img" src="https://dummyimage.com/47x65/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-habits-name">
-              IMPROVE YOUR HABITS
+              IMPROVE <br/>YOUR HABITS
             </div>
             <Ripple />
           </div>
@@ -70,7 +91,7 @@ export default class UserActionsGrid extends React.Component {
               <img className="user-todos-img" src="https://dummyimage.com/47x65/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-todos-name">
-              TO DO LISTS
+              TO DO <br/> LISTS
             </div>
             <Ripple />
           </div>
@@ -79,7 +100,7 @@ export default class UserActionsGrid extends React.Component {
               <img className="user-goals-img" src="https://dummyimage.com/47x65/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-goals-name">
-              SET GOALS
+              SET <br/> GOALS
             </div>
             <Ripple />
           </div>
@@ -88,7 +109,7 @@ export default class UserActionsGrid extends React.Component {
               <img className="user-info-img" src="https://dummyimage.com/47x65/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-info-name">
-              MY CHARACTER
+              PROFILE <br/> INFO
             </div>
             <Ripple />
           </div>
@@ -97,7 +118,7 @@ export default class UserActionsGrid extends React.Component {
               <img className="user-stats-img" src="https://dummyimage.com/47x65/9b9b9b/000000" alt="User Work"/>
             </div>
             <div className="user-stats-name">
-              GET STATS
+              GET <br/>STATS
             </div>
             <Ripple />
           </div>

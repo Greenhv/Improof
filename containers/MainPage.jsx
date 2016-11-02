@@ -3,8 +3,9 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
 import { Page } from 'react-onsenui';
-import Pomodoro from '../containers/Pomodoro.jsx';
+import Pomodoro from './Pomodoro.jsx';
 
+import MyProjects from '../components/MyProjects.jsx';
 import UserInformation from '../components/UserInformation.jsx';
 import UserActionsGrid from '../components/UserActionsGrid.jsx';
 
@@ -22,10 +23,16 @@ class MainPage extends React.Component {
       startWork,
       startRest,
       timerStopped,
+      setRest,
+      setWork,
     } = this.props.actions;
 
     const openWorkAction = () => {
       navigator.pushPage({component: Pomodoro, key: 'POMODORO_PAGE'});
+    }
+  
+    const openMyProjectsAction = () => {
+      navigator.pushPage({component: MyProjects, key: 'MY_PROJECTS_PAGE'});
     }
 
     return(
@@ -36,6 +43,10 @@ class MainPage extends React.Component {
          startRest={startRest}
          pomodoro={pomodoro}
          openWorkAction={openWorkAction}
+         openMyProjectsAction={openMyProjectsAction}
+         setRest={setRest}
+         setWork={setWork}
+         timerStopped={timerStopped}
         />
       </Page>
     )

@@ -58,6 +58,10 @@
   }
 }
 
+.hidden {
+  display: none;
+}
+
 /* Global styles End */
 
 // Buttons Styles
@@ -297,12 +301,20 @@
 
 .timer-wrapper {
   padding-top: 30px;
+
+  &.for-user-grid-actions {
+    padding-top: 2px;
+  }
 }
 
 .timer-time-left {
   font-family: 'Ayuthaya';
   font-size: 60px;
   text-align: center;
+
+  &.for-user-grid-actions {
+    font-size: 45px;
+  }
 }
 
 .timer-elements {

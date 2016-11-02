@@ -9,23 +9,80 @@ import Timer from '../components/Timer.jsx';
 import * as Actions from '../actions';
 
 class Pomodoro extends React.Component {
+  startTimer(e) {
+    const {
+      startWork,
+      startRest,
+    } = this.props.actions;
+
+    let currentBtn = e.target;
+    let currentName = currentBtn.getAttribute('name');
+    currentBtn.classList.add('hidden');
+    currentBtn.nextSibling.classList.remove('hidden');    
+    if (currentName == 'start-work') {
+      startWork();
+    } else if (currentName == 'start-break') {
+      startRest();
+    }
+  }
+
+  stopTimer(e) {
+    const {
+      pomodoro,
+    } = this.props;
+
+    const {
+      timerStopped,
+    } = this.props.actions;
+
+    timerStopped(pomodoro.interval);
+    e.target.classList.add('hidden');
+    e.target.previousSibling.classList.remove('hidden');
+  }
+
+  getCurrentActionButton() {
+    const {
+      pomodoro,
+    } = this.props;
+    
+    if (pomodoro.to_rest || pomodoro.resting) {
+      return (
+        <div>
+          <Button name="start-break" onClick={(e) => this.startTimer(e)} class={`button button--material dark-btn pomodoro-button dark-btn pomodoro-button ${pomodoro.resting ? 'hidden' : 'visible'}`}>Start break</Button>
+          <Button name="stop-break" onClick={(e) => this.stopTimer(e)} class={`button button--material dark-btn pomodoro-button light-btn pomodoro-button ${pomodoro.resting ? 'visible' : 'hidden'}`}>Skip break</Button>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <Button name="start-work" onClick={(e) => this.startTimer(e)} class={`button button--material dark-btn pomodoro-button dark-btn pomodoro-button ${pomodoro.working ? 'hidden' : null}`}>Start work session</Button>
+          <Button name="stop-work" onClick={(e) => this.stopTimer(e)} class={`button button--material dark-btn pomodoro-button light-btn pomodoro-button ${pomodoro.working ? null : 'hidden'}`}>Surrender</Button>
+        </div>
+      );
+    }
+  }
+
+  gePomodoroTitle() {
+    const {
+      pomodoro,
+    } = this.props;
+
+    if(pomodoro.working) return 'Working...';
+    else if(pomodoro.to_rest || pomodoro.resting) return 'On a break';
+    else return 'Work';
+  }
+
   render() {
     const {
       navigator,
       pomodoro,
     } = this.props;
 
-    const {
-      startWork,
-      timerStopped,
-      startRest,
-    } = this.props.actions;
-
     return (
       <Page 
        renderToolbar={() =>
         <NavBar 
-         title='Work'
+         title={this.gePomodoroTitle()}
          navigator={navigator}
          backButton={true}
          volumeButton={true}
@@ -34,9 +91,9 @@ class Pomodoro extends React.Component {
        }>
         <section className="pomodoro-timer">
           <div className="timer-elements">
-            <Timer startWork={startWork} timerStopped={timerStopped} pomodoro={pomodoro} />
-            <ProgressBar className="timer-progress-bar" value={100} />
-            <Button onClick={() => {pomodoro.timeLeft}} className="dark-btn pomodoro-button">Start work session</Button>
+            <Timer pomodoro={pomodoro} inUserGrid={false} />
+            <ProgressBar className="timer-progress-bar" value={pomodoro.timeLeft/1500000*100} />
+            {this.getCurrentActionButton()}
           </div>
           <div className="timer-actions"></div>
         </section>

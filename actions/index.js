@@ -5,6 +5,8 @@ export const AUTH_ERROR = 'AUTH_ERROR';
 export const SIGN_OUT_USER = 'SIGN_OUT_USER';
 export const START_WORK = 'START_WORK';
 export const START_REST = 'START_REST';
+export const SET_REST = 'SET_REST';
+export const SET_WORK = 'SET_WORK';
 export const STOP_POMODORO = 'STOP_POMODORO';
 export const TICK = 'TICK';
 
@@ -44,7 +46,7 @@ export const startWork = function startWork() {
     const interval = setInterval(() => {
       dispatch({
         type: TICK,
-        time: Date.now(),
+        timeLeft: Date.now(),
       });
     }, 1000);
 
@@ -63,8 +65,31 @@ export const timerStopped =  function timerStopped(interval) {
   }
 }
 
-export const startRest = function startRest() {
+export const setRest = function setRest() {
   return {
-    type: START_REST,
+    type: SET_REST,
+  }
+}
+
+export const setWork = function setWork() {
+  return {
+    type: SET_WORK,
+  }
+}
+
+export const startRest = function startRest() {
+  return function(dispatch) {
+    const interval = setInterval(() => {
+      dispatch({
+        type: TICK,
+        timeLeft: Date.now(),
+      });
+    }, 1000);
+
+    dispatch({
+      type: START_REST,
+      offset: Date.now(),
+      interval,
+    })
   }
 }

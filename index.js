@@ -1,4 +1,6 @@
+import 'react-hot-loader/patch';
 import React from 'react';
+import { AppContainer } from 'react-hot-loader';
 import ReactDOM from 'react-dom';
 import ons from 'onsenui'
 
@@ -11,9 +13,22 @@ const store =  configureStrore();
 
 const appElement = document.getElementById('app');
 
-ons.ready(() => ReactDOM.render(
-  <Provider store={store}>
-    <Home />
-  </Provider>,
-  appElement
-));
+renderWithHotReload(Home);
+
+if (module.hot) {
+  module.hot.accept('./components/Home.jsx', () => {
+    const Home = require('./components/Home.jsx').default;
+    renderWithHotReload(Home);
+  });
+}
+
+function renderWithHotReload(Home) {
+  ons.ready(() => ReactDOM.render(
+    <AppContainer>
+      <Provider store={store}>
+        <Home />
+      </Provider>
+    </AppContainer>,
+    appElement
+  ));
+}

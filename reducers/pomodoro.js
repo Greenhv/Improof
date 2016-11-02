@@ -1,9 +1,11 @@
-import { START_WORK, START_REST, STOP_POMODORO, TICK } from '../actions';
+import { START_WORK, START_REST, STOP_POMODORO, SET_REST, SET_WORK, TICK } from '../actions';
 
 const initialState = {
   working: false,
+  to_work: true,
   resting: false,
-  timeLeft: 1500,
+  to_rest: false,
+  timeLeft: 1500000,
 }
 
 export default function pomodoro(state = initialState, action) {
@@ -12,27 +14,43 @@ export default function pomodoro(state = initialState, action) {
       return {
         ...state,
         working: true,
-        resting: false,
+        to_work: false,
         offset: action.offset,
         interval: action.interval,
       };
     case STOP_POMODORO:
       return {
         ...initialState,
-        time: 1500,
       };
     case TICK:
       return {
         ...state,
-        time: state.time - (action.time - state.offset),
-        offset: action.time,
+        timeLeft: state.timeLeft - (action.timeLeft - state.offset),
+        offset: action.timeLeft,
+      }
+    case SET_WORK:
+      return {
+        ...state,
+        working: false,
+        to_work: true,
+        resting: false,
+        timeLeft: 1500000,
+      }
+    case SET_REST:
+      return {
+        ...state,
+        working: false,
+        resting: false,
+        to_rest: true,
+        timeLeft: 300000,
       }
     case START_REST:
       return {
         ...state,
-        working: false,
         resting: true,
-        timeLeft: 300,
+        to_rest: false,
+        offset: action.offset,
+        interval: action.interval,
       };
     default:
       return state;
