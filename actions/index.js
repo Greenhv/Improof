@@ -12,10 +12,17 @@ export const TICK = 'TICK';
 
 export const signInUser = function signInUser(navigator, authKeys) {
   navigator.pushPage({component: MainPage, key: 'MAIN_PAGE'});
-
+  // Fetch User from the Ws with the authKey, if there are no User then send an error
   return {
     type: AUTH_USER,
-    payload: {username: 'Herbert Videla', email: 'herbert.videla@tektoblabs.com'}
+    payload: {
+      username: 'Herbert Videla',
+      email: 'herbert.videla@pucp.pe',
+      projects: {
+        0: {id: 0, project: 'Mobiles Application Development', milestones: {0: {id: 0, milestone: 'Improof'}, 1: {id: 1, milestone: 'Android'}}, sessionWorked: 2, totalSessions: 6},
+        1: {id: 1, project: 'Learn Japanese', milestones: {0: {id: 0, milestone: 'Learn hiragana'}, 1: {id: 1, milestone: 'Learn Kanjis'}}, sessionWorked: 2, totalSessions: 6},
+      }
+    }
   }
 };
 
@@ -24,7 +31,16 @@ export const signUpUser = function signUpUser(navigator, registrationKeys) {
 
   return {
     type: AUTH_USER,
-    payload: {username: `${registrationKeys.firstName} ${registrationKeys.lastName}`, email: registrationKeys.email }
+    payload: {
+      username: 'Juan Jose Ramirez',
+      // username: `${registrationKeys.firstName} ${registrationKeys.lastName}`,
+      email: 'juanjose.ramirez@pucp.pe',
+      // email: registrationKeys.email,
+      projects: {
+        0: {id: 0, project: 'Mobiles Application Development', milestones: {0: {id: 0, milestone: 'Improof'}, 1: {id: 1, milestone: 'Android'}}, sessionWorked: 2, totalSessions: 6},
+        1: {id: 1, project: 'Learn Japanese', milestones: {0: {id: 0, milestone: 'Learn hiragana'}, 1: {id: 1, milestone: 'Learn Kanjis'}}, sessionWorked: 2, totalSessions: 6},
+      }
+    }
   }
 };
 

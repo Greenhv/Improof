@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Toolbar, BackButton, Icon } from 'react-onsenui';
+import { Toolbar, BackButton, Icon, Ripple } from 'react-onsenui';
 
 const NavApp = ({title, navigator, backButton, volumeButton, helpButton, deleteButton, sortButton}) => (
   <Toolbar class="global-navbar">
@@ -9,10 +9,22 @@ const NavApp = ({title, navigator, backButton, volumeButton, helpButton, deleteB
     </div>
     <div className="center default-font-color navbar-tilte">{title}</div>
     <div className="right default-font-color navbar-icons">
-      {volumeButton ? <Icon class="navbar-icon" icon="md-volume-up" /> : null}
-      {helpButton ? <Icon class="navbar-icon" icon="md-help-outline" /> : null}
-      {deleteButton ? <Icon class="navbar-icon" icon="md-delete" /> : null}
-      {sortButton ? <Icon class="navbar-icon" icon="md-sort-amount-desc" /> : null}
+      <div className="">
+        {volumeButton ? <Icon class="navbar-icon" icon="md-volume-up" /> : null}
+        <Ripple />
+      </div>
+      <div>
+        {deleteButton ? <Icon class="navbar-icon" icon="md-delete" /> : null}
+        <Ripple />
+      </div>
+      <div>
+        {sortButton ? <Icon class="navbar-icon" icon="md-sort-amount-desc" /> : null}
+        <Ripple />
+      </div>
+      <div>
+        {helpButton ? <Icon class="navbar-icon" icon="md-help-outline" /> : null}
+        <Ripple />
+      </div>
     </div>
   </Toolbar>
 );

@@ -52,6 +52,7 @@
 .navbar-icon {
   font-size: 30px;
   padding-right: 13px;
+  vertical-align: sub;
 
   &:last-child {
     padding-right: 7px;
@@ -60,6 +61,51 @@
 
 .hidden {
   display: none;
+}
+
+.only-read-input {
+  color: black;
+  opacity: 1 !important;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.material-select-container {
+  position: relative;
+  width: 100%;
+}
+
+.material-select-label {
+  width: 100%;
+}
+
+.material-select {
+  width: 100%;
+  padding: 0 10px 2px 0;
+  margin: 0;
+  background: transparent;
+  line-height: normal;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  vertical-align: top;
+  outline: none;
+  line-height: 1;
+  font-family: 'Roboto';
+  font-weight: normal;
+  color: #212121;
+  background-image: linear-gradient(to top, transparent 1px, #afafaf 1px);
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+  height: 24px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Global styles End */
@@ -340,3 +386,61 @@
   width: 216px;
   padding: 4px 0;
 }
+
+.timer-actions {
+  text-align: center;
+}
+
+.pomodoro-activity {
+  margin-top: 34px;
+}
+
+.pomodoro-label {
+  font-family: 'Monaco';
+}
+
+.session-counter-wrapper,
+.project-select-wrapper,
+.milestone-select-wrapper {
+  width: 223px;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-top: 12px;
+  color: #9B9B9B;
+}
+
+
+/* Pomodoro/Work ACtion Styles */
+
+/* My Projects Styles */
+
+.my-projects {
+  padding: 0 10px 10px 10px;
+}
+
+.my-project {
+  background: #EEEEEE;
+  font-family: 'Ayuthaya';
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 13px;
+}
+
+.my-project-simbol-wrapper {
+  width: 40px;
+  height: 40px;
+}
+
+.my-project-name-wrapper {
+  width: 60%;
+}
+
+.my-project-time-worked-clock {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* My Projects Styles Endend */

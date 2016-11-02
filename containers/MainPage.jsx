@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux';
 
 import { Page } from 'react-onsenui';
 import Pomodoro from './Pomodoro.jsx';
+import MyProjects from './MyProjects.jsx';
 
-import MyProjects from '../components/MyProjects.jsx';
 import UserInformation from '../components/UserInformation.jsx';
 import UserActionsGrid from '../components/UserActionsGrid.jsx';
 

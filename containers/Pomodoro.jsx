@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import { Page, ProgressBar, Button, Input } from 'react-onsenui';
 import NavBar from '../components/NavBar.jsx';
 import Timer from '../components/Timer.jsx';
+import MaterialSelect from '../components/MaterialSelect.jsx';
 
 import * as Actions from '../actions';
 
@@ -78,6 +79,20 @@ class Pomodoro extends React.Component {
       pomodoro,
     } = this.props;
 
+    const {
+      projects,
+    } = this.props.auth.user;
+
+    let projectsData = [
+      {id: projects[0].id, value: projects[0].project},
+      {id: projects[1].id, value: projects[1].project}
+    ]
+
+    let milestonesData = [
+      {id: projects[0].milestones[0].id, value: projects[0].milestones[0].milestone},
+      {id: projects[0].milestones[1].id, value: projects[0].milestones[1].milestone}
+    ]
+
     return (
       <Page 
        renderToolbar={() =>
@@ -93,15 +108,26 @@ class Pomodoro extends React.Component {
           <div className="timer-elements">
             <Timer pomodoro={pomodoro} inUserGrid={false} />
             <ProgressBar className="timer-progress-bar" value={pomodoro.timeLeft/1500000*100} />
+          </div>
+          <div className="timer-actions">
             {this.getCurrentActionButton()}
           </div>
-          <div className="timer-actions"></div>
         </section>
         <section className="pomodoro-activity">
           <div className="project-select-wrapper">
+            <div className="pomodoro-label">PROJECT</div>
+            <MaterialSelect data={projectsData} />
           </div>
-          <div className="milestone-select-wrapper"></div>
-          <div className="session-counter-wrapper"></div>
+          <div className="milestone-select-wrapper">
+            <div className="pomodoro-label">MILESTONE</div>
+            <MaterialSelect data={milestonesData} />
+          </div>
+          <div className="session-counter-wrapper">
+            <div className="pomodoro-label">SESSIONS WORKED TODAY</div>
+            <div className="pomodoro-data">
+              <Input className="only-read-input" value={1} value={`${projects[0].sessionWorked} of ${projects[0].totalSessions}`} disabled />
+            </div>
+          </div>
         </section>
       </Page>
     );
@@ -111,6 +137,7 @@ class Pomodoro extends React.Component {
 function mapStateToProps (state) {
   return {
     pomodoro: state.pomodoro,
+    auth: state.auth,
   };
 }
 

@@ -13,7 +13,7 @@ export default function auth(state = initialState, action) {
         ...state,
         authenticated: true,
         error: null,
-        user: {username: action.payload.username, email: action.payload.email},
+        user: {username: action.payload.username, email: action.payload.email, projects: action.payload.projects},
       };
     case AUTH_ERROR:
       return {
