@@ -11,7 +11,7 @@ export default class MaterialSelect extends React.Component {
     return (
       <div className="material-select-container">
         <select onChange={onChange} className="material-select" name="material-select" >
-          <option value="" disabled></option>
+          <option value=""></option>
           {data.map((val) => {
             return(<option value={val.id} key={val.id}>{val.value}</option>)
           })}
