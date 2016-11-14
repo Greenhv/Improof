@@ -410,7 +410,7 @@
 }
 
 
-/* Pomodoro/Work ACtion Styles */
+/* Pomodoro/Work Action Styles */
 
 /* My Projects Styles */
 
@@ -444,3 +444,39 @@
 }
 
 /* My Projects Styles Endend */
+
+/* Dialog Styles */
+
+.dialog-content {
+  background: white;
+  width: 302px;
+}
+
+.dialog-content-btn {
+  margin-right: 33px;
+}
+
+.dialog-header {
+  padding: 8px 12px 7px 10px;
+  font-size: 20px;
+  font-family: "Monaco";
+  background: #eeeeee;
+}
+
+.dialog-body {
+  padding-bottom: 22px;
+}
+
+.dialog-body-icon {
+  padding: 26px 23px 28px;
+}
+
+.dialog-body-data {
+  padding-right: 27px;
+}
+
+.dialog-body-input {
+  margin-bottom: 17px;
+}
+
+/* Dialog Styles Endend */
